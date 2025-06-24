@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cognifyz Task 3 - Frontend Frameworks</title>
+
+  <!-- ✅ Bulma CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+  <!-- ✅ Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <style>
+    body {
+      margin: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #333;
+    }
+
+    .section-title {
+      margin-top: 40px;
+      margin-bottom: 20px;
+      color: #2c3e50;
+    }
+
+    .custom-card {
+      max-width: 400px;
+      margin: auto;
+    }
+
+    .custom-card img {
+      object-fit: cover;
+      height: 200px;
+    }
+
+    .grid-box {
+      padding: 20px;
+      color: white;
+      font-weight: bold;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      color: #555;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Cognifyz Level 2 – Task 1</h1>
+
+  <!-- ✅ Task 1: Bulma Card Component -->
+  <section>
+    <h2 class="section-title">1️⃣ Responsive Card using Bulma</h2>
+    <div class="card custom-card">
+      <div class="card-image">
+        <figure class="image is-4by3">
+          <img src="https://www.shutterstock.com/image-photo/portrait-beautiful-girl-luxurious-curly-600nw-2250115561.jpg" alt="hair Image">
+        </figure>
+      </div>
+      <div class="card-content">
+        <p class="title is-4">Iqra's Tech Card</p>
+        <p class="content">
+          This card demonstrates the use of the Bulma front-end framework to build clean, responsive UI components. 
+          It combines visual design with text content, making it ideal for showcasing profiles, products, 
+          or project highlights in modern web applications.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ Task 2: Bootstrap Grid Layout -->
+  <section>
+    <h2 class="section-title">2️⃣ Responsive Grid using Bootstrap</h2>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="grid-box bg-primary">Grid Item 1</div>
+        </div>
+        <div class="col-md-4">
+          <div class="grid-box bg-success">Grid Item 2</div>
+        </div>
+        <div class="col-md-4">
+          <div class="grid-box bg-danger">Grid Item 3</div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-6">
+          <div class="grid-box bg-warning text-dark">Grid Item 4</div>
+        </div>
+        <div class="col-md-6">
+          <div class="grid-box bg-info">Grid Item 5</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Made with 💻 by Iqra Patel | Cognifyz Internship | Task 3
+  </footer>
+
+</body>
+</html>
